@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     /*Feel free to change the values of the following
     properties to your liking!*/
-    background-color:antiquewhite;
+    background-color:pink;
     font-family: cursive, sans-serif;
     color: purple;
 }
@@ -13,8 +13,16 @@ body{
 .container{
     /*Declares that the element and its children(the elements inside it) can be styled with flexbox*/
     display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
+.container div{
+    background-color: blueviolet;
+    padding: 5px;
+}
 
 img{
     /*Sets image sizing to be a bit more uniform*/
